@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+  {% include head.html %}
+  <body>
+    <div id="page-eyekiller">
+      <section class="header-background">
+        {% include header.html %}
+        <article class="content" id="tagline">
+          <h1>Hello, Eyekiller</h1>
+          <div class="arrow bounce">
+
+          </div>
+        </article>
+      </section>
+
+      <section class="container">
+        <article class="content">
+          {{ content }}
+        </article>
+      </section>
+
+      <section class="my-work">
+        <article class="section-title">
+          <h2>A Selection of My Work</h2>
+        </article>
+        <article class="full-width">
+          <ul class="work-grid">
+            <li>
+              <div class="inner">
+                <h3>Rumble Labs</h3>
+                <p>In one of my favourite projects to-date, I had a primary role in the design and development of the Rumble Labs portfolio site. With the aim to showcase our work and content in a highly engaging way, I conducted all of the photography for the website and created very visual designs, which I later helped build using HAML, Sass and Javascript on the framework <a href="https://middlemanapp.com">Middleman</a>.</p>
+                <a href="http://rumblelabs.com" class="button button-push"><i class="button-icon fa fa-long-arrow-right"></i><span>View Live Site</span></a>
+              </div>
+            </li>
+            <li class="work-example rumble-labs"></li>
+            <li class="work-example belfast-ruby"></li>
+            <li id="work-belfast-ruby">
+              <div class="inner">
+                <h3>Belfast Ruby</h3>
+                <p>Taking a completely different approach from the Rumble Labs portfolio, I designed this site for local Ruby developer meetups with the focus on typography and simplicity. I built this site on <a href="http://jekyllrb.com/">Jekyll</a> because of its ability to keep the code clean and efficient, with the use of <a href="http://daringfireball.net/projects/markdown/syntax">Markdown</a> and templating language <a href="http://jekyllrb.com/docs/templates/">Liquid</a>.</p>
+                <a href="http://belfastruby.com" class="button button-push"><i class="button-icon fa fa-long-arrow-right"></i><span>View Live Site</span></a>
+              </div>
+            </li>
+            <li id="work-the-laboratory">
+              <div class="inner">
+                <h3>The Laboratory</h3>
+                <p>The Laboratory website was a fast-moving project that I designed and built within a few days, as we wanted to move quickly to advertise our new co-working space in Belfast. I enjoyed the chance to experiment with a playful design, structure and colour scheme.</p>
+                <a href="http://laboratorybelfast.com/" class="button button-push"><i class="button-icon fa fa-long-arrow-right"></i><span>View Live Site</span></a>
+              </div>
+            </li>
+            <li class="work-example the-laboratory"></li>
+            <li class="work-example reverspective"></li>
+            <li>
+              <div class="inner">
+                <h3>Reverspective</h3>
+                <p>I recently designed a website for a London-based artist whose work is quirky, colourful and often panoramic. To showcase the work in the best light, I made use of the full-width of the screen, and kept the design clean and minimal, while still retaining personality. </p>
+                <a href="https://dribbble.com/shots/1923285-Artist-Website-Concepts/attachments/330605" class="button button-push view-dribbble"><i class="button-icon fa fa-long-arrow-right"></i><span>View on Dribbble</span></a>
+              </div>
+            </li>
+          </ul>
+        </article>
+      </section>
+    </div>
+
+
+    {% include footer.html %}
+  </body>
+</html>

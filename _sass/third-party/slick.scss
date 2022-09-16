@@ -1,0 +1,52 @@
+/* Slick Gallery/Slider on Project Specific Page */
+
+.slick-slide{
+  background: black;
+}
+
+.slick-slide img {
+  opacity: 0.75;
+    -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -ms-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  transition: all 1s ease;
+}
+
+.slick-active{
+  border-left: 2px solid white;
+  border-right: 2px solid white;
+}
+
+.slick-slide.slick-active img {
+  opacity: 1;
+    -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -ms-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  transition: all 1s ease;
+}
+
+.slick-prev, .slick-next {
+  position: absolute;
+  top: 50%;
+  margin-top:-25px;
+  z-index: 500;
+  width: 65px;
+  height: 65px;
+  border: none;
+  background: url(../img/misc/arrow-right.png) no-repeat;
+  &:hover{
+   background: url(../img/misc/arrow-right-hover.png) no-repeat;
+  }
+}
+
+.slick-prev{
+  left: 20px;
+  transform: rotate(180deg);
+}
+
+.slick-next {
+  left: auto;
+  right: 20px;
+}

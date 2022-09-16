@@ -1,0 +1,47 @@
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <meta name="google-site-verification" content="prSAh6gEAIltr7n1XBk4OwwhBeOy6sHvXdGvNZaT8Pc" />
+
+  <!--[if lt IE 9]> <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script> <![endif]-->
+
+  <title>{% if page.seotitle %}{{ page.seotitle }} | {{ site.title }}{% else %}{{ site.title }}{% endif %}</title>
+  <meta name="description" content="={{ site.description }}">
+
+  <link rel="stylesheet" href="{{ site.baseurl }}/dist/aos.css" />
+  <link rel="stylesheet" href="{{ '/css/main.css' | prepend: site.baseurl }}">
+  <link rel="stylesheet" href="https://use.typekit.net/drm2vjl.css">
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+  <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+  <link rel="alternate" type="application/atom+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}" />
+
+  <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll@15.0.0/dist/smooth-scroll.polyfills.min.js"></script>
+
+  <meta property="og:title" content="Melissa Keizer | User Experience Designer &amp; Photographer" />
+  <meta property="og:description" content="Personal website of Melissa Keizer - a UI/UX designer, front-end developer and photographer from Bangor, Northern Ireland" />
+  <meta property="og:url" content="http://www.melissakeizer.com" />
+  <meta property="og:image" content="http://www.melissakeizer.com/img/social/facebook-card-2016.jpg" />
+  <meta property="og:site_name" content="Melissa Keizer | User Experience Designer &amp; Photographer" />
+
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:image:src" content="http://www.melissakeizer.com/img/social/twitter-card-2016.jpg" />
+  <meta name="twitter:url" content="http://www.melissakeizer.com/" />
+  <meta name="twitter:title" content="Melissa Keizer | User Experience Designer &amp; Photographer" />
+  <meta name="twitter:description" content="Personal website of Melissa Keizer - a UI/UX designer, front-end developer and photographer from Bangor, Northern Ireland" />
+
+  <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+  <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+  <script src="{{ '/js/all.js' | prepend: site.baseurl }}"></script>
+  <script type="text/javascript" src="/js/slick/slick.js"></script>
+  <script type="text/javascript" src="/js/instafeed/instafeed.min.js"></script>
+	<script src="{{ site.baseurl }}/dist/aos.js"></script>
+
+  <script>
+    AOS.init({
+      once: true,
+    });
+  </script>
+
+</head>

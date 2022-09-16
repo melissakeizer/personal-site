@@ -1,0 +1,106 @@
+/* Journal/Blog Page */
+
+
+.blog-post{
+  width: 48%;
+  display: inline-block;
+  vertical-align: top;
+  margin: 1.8% 0;
+  &:nth-child(odd){
+    margin-right: 3.5%;
+  }
+}
+
+/* Article */
+
+
+.articleContent{
+  p{
+    @include content-width;
+    .article__image{
+      img{
+        width: 100%;
+      }
+    }
+  }
+  h2, h3, h4, ul{
+     @include content-width;
+  }
+  .article__image{
+    padding-bottom: 50px;
+    &--with-caption{
+      padding-bottom: 0;
+    }
+  }
+}
+.articleContent h2{
+  font-size: 36px;
+}
+
+p.date{
+  margin-bottom: 5px;
+}
+
+
+.article__notes, .comment-section, .addthis_inline_share_toolbox{
+  @include content-width;
+}
+
+.addthis_inline_share_toolbox{
+  text-align: center;
+  padding-top: 30px;
+}
+
+.articleContent p{
+  @include content-width;
+  margin-bottom: 3.5%;
+}
+
+.articleContent img{
+  display: block;
+  width: 100%;
+  padding-top: 25px;
+}
+
+.article__notes{
+  text-align: center;
+  margin: 0 auto;
+}
+
+.article__more-posts{
+  background-color: $background-grey;
+  padding: 4% 0 1.5% 0;
+  h2{
+    padding: 0;
+  }
+}
+
+.article__comments{
+  @include content-width;
+  padding: 5% 0 5% 0;
+}
+
+
+
+a.rss{
+  font-size: 20px;
+  color: $grey;
+  &:hover{
+    color: $yellow;
+  }
+}
+
+.rss-and-pagination{
+  position: relative;
+  padding: 60px 0 60px 0;
+  .pagination{
+    display: inline-block;
+    position: absolute;
+    left: 0;
+  }
+  .rss{
+    display: inline-block;
+    position: absolute;
+    right: 0;
+  }
+}

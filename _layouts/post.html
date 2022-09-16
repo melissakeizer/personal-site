@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  {% include head.html %}
+  <body>
+  <section class="pageTop clearfix">
+    <div id="transcroller-body" class="aos-all">
+
+    <header class="navigation">
+      <div class="container">
+        {% include header.html %}
+    </header>
+    <div id="page-{{ page.page }}">
+
+
+          <div class="container clearfix">
+            <article class="intro">
+              <h1 class="aos-item" data-aos="fade-up" data-aos-delay="800" data-aos-once="true">{{ page.title }}</h1>
+              <h2 data-aos="fade-up" data-aos-delay="1050" data-aos-once="true">{{ page.intro }}</h2>
+            </article>
+          </div>
+          </section> <!-- end pageTop -->
+
+
+
+          <section class="pageMiddle">
+            <div class="container clearfix">
+
+            <article class="articleContent">
+              {{ content }}
+            </article>
+            <div class="article__notes">
+              {% if page.footnotes %}
+                <p class="article__footnotes"><span>Footnotes: </span>{{ page.footnotes }}</p>
+              {% endif %}
+              {% if page.location %}
+                <p class="article__location"><i class="fa fa-map-marker" aria-hidden="true"></i> {{ page.location }}</p>
+              {% endif %}
+            </div>
+            <!-- Go to www.addthis.com/dashboard to customize your tools --> <div class="addthis_inline_share_toolbox"></div>
+            {% include comments.html %}
+          </div>
+
+        </div><!-- end container -->
+      </section><!-- end pageMiddle -->
+
+      </div>
+    {% include footer.html %}
+  </div><!-- end transcroller-body -->
+  </body>
+</html>

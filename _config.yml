@@ -1,0 +1,23 @@
+# Site settings
+title: Melissa Keizer - User Experience Designer, Photographer and Visual Story Teller
+email: hi@melissakeizer.com
+description: > # this means to ignore newlines until "baseurl:"
+  Personal website of Melissa Keizer - product designer and photographer from Bangor, Northern Ireland.
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://melissakeizer.com" # the base hostname & protocol for your site
+
+twitter: http://twitter.com/keizgoesboom
+dribbble: https://dribbble.com/KeizGoesBoom
+linkedin: https://uk.linkedin.com/in/melissakeizer
+flickr: http://flickr.com/photos/tinyspark_boom
+instagram:  http://instagram.com/keizgoesboom
+facebook: https://www.facebook.com/melissakeizerphotography/
+500px: https://500px.com/melissakeizer
+exposure: https://melissakeizerphotography.com/
+rotor: https://rotorvideos.com/
+
+# Build settings
+markdown: kramdown
+permalink: /journal/:title/
+paginate: 8
+paginate_path: "/journal/:num/"

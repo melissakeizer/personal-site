@@ -1,0 +1,50 @@
+/* Mixins */
+@import "variables";
+
+@mixin content-width{
+  margin: 0 auto;
+  max-width: $max-content-width;
+}
+
+@mixin bg-cover {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+@mixin subtle-fade($background){
+  background: $background;
+  transition: all .2s ease-in-out;
+  -moz-transition: all .2s ease-in-out;
+  -webkit-transition: all .2s ease-in-out;
+  &:hover{
+    background: darken($background, 5%);
+  }
+}
+
+@mixin subtle-animation{
+  transition: all .2s ease-in-out;
+  -moz-transition: all .2s ease-in-out;
+  -webkit-transition: all .2s ease-in-out;
+}
+
+
+@mixin faktproBlond{
+  font-family: 'FaktPro-Blond', sans-serif;
+  font-style: normal;
+  font-weight: 300;
+}
+
+@mixin faktproSemibold{
+  font-family: 'FaktPro-Semibold', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+}
+
+@mixin navigation-styles{
+  font-family: $serif-font-family-light;
+  color: $white;
+  font-size: 18px;
+  margin: 0 0 0 1.3em;
+  text-decoration: none;
+}

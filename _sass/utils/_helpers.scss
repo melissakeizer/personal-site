@@ -1,0 +1,59 @@
+/* Helpers */
+
+.float-left{
+  float: left;
+}
+
+.float-right{
+  float: right;
+}
+
+.clearfix{
+  clear: both;
+}
+
+.display-block{
+  display: block;
+}
+
+.center{
+  text-align: center;
+}
+
+.grey{
+  color: $grey;
+}
+
+.white{
+  color: $white;
+}
+
+.top-space{
+  &--xs{
+    padding-top: 10px;
+  }
+  &--s{
+    padding-top: 30px;
+  }
+  &--m{
+    padding-top: 50px;
+  }
+  &--l{
+    padding-top: 100px;
+  }
+}
+
+.bottom-space{
+  &--xs{
+    padding-bottom: 10px;
+  }
+  &--s{
+    padding-bottom: 30px;
+  }
+  &--m{
+    padding-bottom: 50px;
+  }
+  &--l{
+    padding-bottom: 100px;
+  }
+}

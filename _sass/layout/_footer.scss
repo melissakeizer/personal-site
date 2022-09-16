@@ -1,0 +1,45 @@
+/* Footer */
+
+footer{
+  background: $background-grey;
+  color: $white;
+  padding: 2em 0 5em 0;
+}
+
+.footerInfo{
+  float: left;
+  width: 80%;
+}
+
+.footerInfo__text{
+  display: inline-block;
+  a{
+  text-decoration: none;
+  border: none;
+  &:hover{
+    border: none;
+  }
+  }
+}
+
+.footerSocial{
+  float: left;
+  width: 20%;
+  ul{
+    width: 50%;
+    float: left;
+  }
+  a{
+    font-size: 18px;
+    color: $yellow;
+    &:hover{
+      color: $white;
+    }
+  }
+}
+
+img.footerLogo{
+  max-width: 50px;
+  display: inline-block;
+  margin-right: 20px;
+}

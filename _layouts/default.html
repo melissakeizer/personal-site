@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+  {% include head.html %}
+  <body>
+  <section class="pageTop clearfix">
+    <div id="transcroller-body" class="aos-all">
+    <header class="navigation">
+      <div class="container">
+          {% include header.html %}
+    </header>
+
+        <div id="page-{{ page.page }}">
+            {{ content }}
+        </div>
+      {% include footer.html %}
+			</div>
+  </body>
+</html>

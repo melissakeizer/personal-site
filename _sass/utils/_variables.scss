@@ -1,0 +1,58 @@
+/**
+ * Variables
+ */
+
+$serif-font-family-light: "cambon-light", "Georgia", serif;
+$serif-font-family-bold: "cambon-semibold", "Georgia", serif;
+$sans-serif-font-family-blond: 'Fakt-Pro-Blond', sans-serif;
+$sans-serif-font-family: 'Fakt-Pro-Normal', sans-serif;
+
+$base-line-height: 1.3em;
+
+$max-content-width: 840px;
+
+$container-width: 1200px;
+
+/* Set site colours */
+
+$black: #282D31;
+$white: #ffffff;
+
+$yellow: #EBC828;
+$gold: #847500;
+
+$grey: #A3A5A7;
+$background-grey: #282D31;
+$subtle-grey: #505A61;
+
+$graphite: #161A1C;
+
+
+/*  Breakpoints */
+
+$screen-xx-sm-max: 399px;
+$screen-xx-sm-min: 400px;
+
+$screen-x-sm-max: 619px;
+$screen-x-sm-min: 621px;
+
+$screen-sm-max: 699px;
+$screen-sm-min: 700px;
+
+$screen-md-max: 869px;
+$screen-md-min: 870px;
+
+$screen-lg-max: 1019px;
+$screen-lg-min: 1020px;
+
+$screen-x-lg-max: 1259px;
+$screen-x-lg-min: 1260px;
+
+$screen-xx-lg-max: 1399px;
+$screen-xx-lg-min: 1400px;
+
+$screen-xxx-lg-max: 1639px;
+$screen-xxx-lg-min: 1640px;
+
+$screen-xxxx-lg-max: 1799px;
+$screen-xxxx-lg-min: 1800px;
