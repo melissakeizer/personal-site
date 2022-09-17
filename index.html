@@ -3,19 +3,35 @@ layout: default
 page: home
 selected: home
 seotitle: Home
-title: Hi, I’m Melissa Keizer.
+title: Hi, I’m Melissa Keizer — I’m a product designer focussed on creating meaningful experiences that move the needle.
 intro: I’m a product designer focussed on creating meaningful experiences that move the needle.
 ---
 
-<div class="container">
+<div class="container clearfix">
   <article class="intro">
     <h1 class="aos-item" data-aos="fade-up" data-aos-delay="600" data-aos-once="true">{{ page.title }}</h1>
-    <h2 data-aos="fade-up" data-aos-delay="800" data-aos-once="true">{{ page.intro }}</h2>
-    <p data-aos="fade-up" data-aos-delay="1000" data-aos-once="true">I have spent the last decade working across the whole design spectrum including user research, UI/UX design and front-end development. I’m currently Senior Product Design at <a href="{{ site.rotor }}">Rotor Videos</a> helping musicians be seen and be heard.</p>
-    <p data-aos="fade-up" data-aos-delay="1000" data-aos-once="true">Based in sunny Bangor, I'm a Dutch/Northern Irish mongrel, avid photographer and <a href="{{ site.exposure }}">visual story teller</a>.</p>
+    <p data-aos="fade-up" data-aos-delay="1000" data-aos-once="true">I have spent the last decade working across the whole design spectrum including user research, UI/UX design and front-end development.  I’m also an avid photographer and visual story teller, specialising in capturing our favourite, furry companions. </p>
   </article>
 
-  <section class="aboutGallery">
+<section class="fullWidth clearfix">
+  <div class="homepageLinks">
+      <div class="homepageLinks__third" data-aos-delay="1200" data-aos-once="true">
+        <h2><a hef="{{ site.dribbble}}">Design Work →</a></h2>
+        <p class="sans-serif"><a hef="{{ site.dribbble}}">Find some of my design work with case study notes on my my Dribbble profile.</a></p>
+      </div>
+      <div class="homepageLinks__third" data-aos-delay="1300" data-aos-once="true">
+        <h2><a hef="{{ site.exposure}}">Photography →</a></h2>
+        <p class="sans-serif"><a hef="{{ site.exposure}}">I post photo stories and galleries of my trips away and pet photoshoots</a></p>
+      </div>
+      <div class="homepageLinks__third homepageLinks__third--last" data-aos-delay="1400" data-aos-once="true">
+        <h2><a hef="{{ site.twitter}}">Twitter →</a></h2>
+        <p class="sans-serif"><a hef="{{ site.twitter}}">Catcn my ramblings and get in touch by sliding into my DMs.</a></p>
+      </div>
+    </div>
+</section>
+
+
+  <section class="aboutGallery clearfix">
     <div class="aboutGallery__half" data-aos="fade" data-aos-delay="200" data-aos-once="true">
       <div class="galleryPiece">
         <img src="../img/2022/melissa-orca.jpg" alt="Melissa and her pup Orca" class="workPiece__image" />

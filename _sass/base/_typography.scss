@@ -13,24 +13,24 @@ body {
 
 
 h1, .h1{
-  font-family: $sans-serif-font-family-blond;
-  font-weight: 200;
-  font-style: normal;
-  color: $yellow;
-  font-size: 26px;
-  line-height: 1.0em;
-  letter-spacing: -0.2px;
-  text-align: left;
-  margin-bottom: 0.25em;
-
+  font-family: $serif-font-family-bold;
+  font-size: 40px;
+  line-height: 1.2em;
+  padding: 0.3em 0 0.7em 0;
 }
 
 
 h2, h2 a,.h2{
-  font-family: $serif-font-family-bold;
-  font-size: 46px;
-  line-height: 1.2em;
-  padding: 0.3em 0 0.7em 0;
+  font-family: $sans-serif-font-family-blond;
+  font-weight: 200;
+  font-style: normal;
+  color: $yellow;
+  font-size: 23px;
+  line-height: 1.0em;
+  letter-spacing: -0.2px;
+  text-align: left;
+  margin-bottom: 0.4em;
+
 }
 
 
@@ -55,13 +55,13 @@ p{
   margin-bottom: 0.5%;
   color: #EAEAEA;
   line-height:$base-line-height;
-  font-size: 26px;
-  a{
-    border-bottom: 1px solid $grey;
-    &:hover{
-      border-bottom: 1px solid $yellow;
-    }
-  }
+  font-size: 24px;
+  // a{
+  //   border-bottom: 1px solid $grey;
+  //   &:hover{
+  //     border-bottom: 1px solid $yellow;
+  //   }
+  // }
 }
 
 p.sans-serif{
@@ -70,6 +70,13 @@ p.sans-serif{
   font-family: $sans-serif-font-family;
 }
 
+p.description{
+  font-family: $serif-font-family-light;
+  margin-bottom: 0.5%;
+  color: #EAEAEA;
+  line-height:$base-line-height;
+  font-size: 24px;
+}
 
 a{
   text-decoration: none;

@@ -19,11 +19,11 @@ body {
 
 ::selection {
   background: $yellow; /* WebKit/Blink Browsers */
-  color: $graphite;
+  color: $navy;
 }
 ::-moz-selection {
   background: $yellow; /* Gecko Browsers */
-  color: $graphite;
+  color: $navy;
 }
 
 a{
@@ -56,7 +56,7 @@ a, a:focus{
 .pageTop{
   float: left;
   width: 100%;
-  background: $background-grey;
+  background: $navy;
   color: $white;
 }
 
@@ -97,8 +97,8 @@ a, a:focus{
 .intro p{
   font-size: 22px;
   padding: 10px 0 10px 0;
-  line-height: 1.3em;
-  max-width: 580px;
+  line-height: 1.5em;
+  max-width: 600px;
 }
 
 /* Main Areas */
@@ -108,41 +108,23 @@ a, a:focus{
   float: left;
 }
 
- .aboutGallery{
-   padding-bottom: 3em;
- }
-
- .workGallery{
-   padding-bottom: 5em;
- }
-
-.workExamples__half{
-  width: 54%;
-  float: left;
-  margin: 0 3% 0 0;
-  &--right{
-    width: 40%;
-    margin: 0 0 0 3%;
-  }
+.homepageLinks{
+  padding: 0 0 5% 0;
 }
 
-.workExamples--hikeUp{
-  margin-top: -250px;
-}
-
-
-.aboutGallery__third{
+.homepageLinks__third{
   width: 30%;
   float: left;
-  margin: 0 4.5% 0 0;
+  margin: 2% 4.5% 2% 0;
   &--last{
-    margin: 0;
-    .galleryPiece{
-      margin-bottom: 23px;
-    }
+    margin-right: 0;
+
   }
 }
 
+.aboutGallery{
+  padding: 3em 0 1em 0;
+}
 
 .aboutGallery__half{
   width: 48%;
