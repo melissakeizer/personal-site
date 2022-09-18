@@ -184,9 +184,6 @@ h3, .h3{
   }
 }
 
-.footerInfo{
-  width: 100%;
-}
 
 }
 
@@ -198,11 +195,11 @@ h3, .h3{
 }
 
 h1, .h1{
-	font-size: 18px;
+	font-size: 28px;
 }
 
-h2, .h2, .articleContent h2{
-	font-size: 24px;
+h2, .h2, h2 a, .articleContent h2{
+	font-size: 20px;
 }
 
 h3, .articleContent h3{
@@ -211,6 +208,10 @@ h3, .articleContent h3{
 
 h4, h4 a {
   font-size: 18px;
+}
+
+.intro p{
+  font-size: 19px;
 }
 
 .textLink{
@@ -237,12 +238,13 @@ ul.main-navigation__list li a{
   font-size: 16px;
 }
 
-.intro {
-  padding: 8em 0 1.5em 0;
-}
 
 #page-home .intro{
-  padding: 8em 0 7.5em 0;
+  padding: 7em 0 1.5em 0;
+}
+
+.homepageLinks__third{
+  margin: 4% 0;
 }
 
 .workExamples--hikeUp{
