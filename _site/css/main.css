@@ -288,7 +288,13 @@ body { font-family: "cambon-light", "Georgia", serif; font-size: 21px; line-heig
 
 h1, .h1 { font-family: "cambon-semibold", "Georgia", serif; font-size: 40px; line-height: 1.2em; padding: 0.3em 0 0.7em 0; }
 
-h2, h2 a, .h2 { font-family: "Fakt-Pro-Blond", sans-serif; font-weight: 200; font-style: normal; color: #EBC828; font-size: 23px; line-height: 1.0em; letter-spacing: -0.2px; text-align: left; margin-bottom: 0.4em; }
+h2, h2 a, .h2 { font-family: "Fakt-Pro-Blond", sans-serif; font-weight: 200; font-style: normal; color: #EBC828; font-size: 23px; line-height: 1.0em; letter-spacing: -0.2px; text-align: left; margin-bottom: 0.2em; }
+
+a.animatedLink { display: inline-block; transition: all .2s ease-in-out; -moz-transition: all .2s ease-in-out; -webkit-transition: all .2s ease-in-out; }
+
+a.animatedLink.animatedLink__arrow:hover:after { margin-left: 11px; }
+
+.animatedLink__arrow:after { width: 17px; height: 10px; background: url(../img/icons/arrowYellow.svg); background-repeat: no-repeat; content: ""; display: inline-block; margin-left: 7px; transition: all .2s ease-in-out; -moz-transition: all .2s ease-in-out; -webkit-transition: all .2s ease-in-out; }
 
 h3, h3 a { font-family: "cambon-semibold", "Georgia", serif; font-size: 26px; line-height: 1.2em; padding: 0.3em 0 0.7em 0; max-width: 800px; }
 
@@ -303,18 +309,6 @@ p.description { font-family: "cambon-light", "Georgia", serif; margin-bottom: 0.
 a { text-decoration: none; outline: 0; cursor: pointer; }
 
 a, a:visited, a:hover, a:active { color: inherit; }
-
-a.textLink { display: inline-block; font-family: "Fakt-Pro-Normal", sans-serif; font-size: 20px; color: #161A1C; transition: all .2s ease-in-out; -moz-transition: all .2s ease-in-out; -webkit-transition: all .2s ease-in-out; padding: 1em 0; }
-
-a.textLink:hover { color: #EBC828; }
-
-a.textLink.textLink__arrow:hover:after { margin-left: 11px; }
-
-a.textLink--onDark { color: #A3A5A7; }
-
-a.textLink--onDark:hover { color: #ffffff; }
-
-.textLink__arrow:after { width: 17px; height: 10px; background: url(../img/icons/arrowYellow.svg); background-repeat: no-repeat; content: ""; display: inline-block; margin-left: 7px; transition: all .2s ease-in-out; -moz-transition: all .2s ease-in-out; -webkit-transition: all .2s ease-in-out; }
 
 p.copyright { padding: 3em 0 0 0; font-size: 14px; color: #A3A5A7; font-family: "Fakt-Pro-Normal", sans-serif; margin: 0; }
 
@@ -430,9 +424,9 @@ footer { background: #1F2428; color: #ffffff; padding: 2em 0 2em 0; }
 
 .footerSocial ul { width: 50%; float: left; }
 
-.footerSocial a { font-size: 18px; color: #EBC828; }
+.footerSocial a { font-size: 16px; color: #ffffff; }
 
-.footerSocial a:hover { color: #ffffff; }
+.footerSocial a:hover { color: #EBC828; }
 
 img.footerLogo { max-width: 50px; display: inline-block; margin-right: 20px; }
 
