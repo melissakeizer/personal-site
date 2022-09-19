@@ -1,10 +1,10 @@
 # Site settings
-title: Melissa Keizer - User Experience Designer, Photographer and Visual Story Teller
+title: Melissa Keizer - Product Designer, Photographer and Visual Story Teller
 email: hi@melissakeizer.com
 description: > # this means to ignore newlines until "baseurl:"
   Personal website of Melissa Keizer - product designer and photographer from Bangor, Northern Ireland.
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://melissakeizer.com" # the base hostname & protocol for your site
+url: "https://melissakeizer.github.io/personal-site/" # the base hostname & protocol for your site
 
 twitter: http://twitter.com/keizgoesboom
 dribbble: https://dribbble.com/KeizGoesBoom
