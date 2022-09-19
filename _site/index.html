@@ -15,14 +15,25 @@
 
   <link rel="stylesheet" href="/dist/aos.css" />
   <link rel="stylesheet" href="/css/main.css">
-  <link rel="stylesheet" href="https://use.typekit.net/drm2vjl.css">
- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+  <!-- <link rel="stylesheet" href="https://use.typekit.net/drm2vjl.css"> -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
   <link rel="canonical" href="http://localhost:4000/">
   <link rel="alternate" type="application/atom+xml" title="Melissa Keizer - User Experience Designer, Photographer and Visual Story Teller" href="http://localhost:4000/feed.xml" />
 
   <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll@15.0.0/dist/smooth-scroll.polyfills.min.js"></script>
+  <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+  <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+  <script src="/js/all.js"></script>
+  <script type="text/javascript" src="/js/slick/slick.js"></script>
+	<script src="/dist/aos.js"></script>
+  
+  <script>
+    AOS.init({
+      once: true,
+    });
+  </script>
 
-  <meta property="og:title" content="Melissa Keizer | User Experience Designer &amp; Photographer" />
+  <meta property="og:title" content="Melissa Keizer | Product Designer &amp; Photographer" />
   <meta property="og:description" content="Personal website of Melissa Keizer - a UI/UX designer, front-end developer and photographer from Bangor, Northern Ireland" />
   <meta property="og:url" content="http://www.melissakeizer.com" />
   <meta property="og:image" content="http://www.melissakeizer.com/img/social/facebook-card-2016.jpg" />
@@ -31,21 +42,10 @@
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:image:src" content="http://www.melissakeizer.com/img/social/twitter-card-2016.jpg" />
   <meta name="twitter:url" content="http://www.melissakeizer.com/" />
-  <meta name="twitter:title" content="Melissa Keizer | User Experience Designer &amp; Photographer" />
-  <meta name="twitter:description" content="Personal website of Melissa Keizer - a UI/UX designer, front-end developer and photographer from Bangor, Northern Ireland" />
+  <meta name="twitter:title" content="Melissa Keizer | Product Designer &amp; Photographer" />
+  <meta name="twitter:description" content="Personal website of Melissa Keizer -product designer, front-end developer and photographer from Bangor, Northern Ireland" />
 
-  <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
-  <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-  <script src="/js/all.js"></script>
-  <script type="text/javascript" src="/js/slick/slick.js"></script>
-  <script type="text/javascript" src="/js/instafeed/instafeed.min.js"></script>
-	<script src="/dist/aos.js"></script>
 
-  <script>
-    AOS.init({
-      once: true,
-    });
-  </script>
 
 </head>
 
@@ -61,21 +61,21 @@
         <div id="page-home">
             <div class="container clearfix">
   <article class="intro">
-    <h1 class="aos-item" data-aos="fade-up" data-aos-delay="600" data-aos-once="true">Hi, I’m Melissa Keizer — I’m a product designer focussed on creating meaningful experiences that move the needle.</h1>
+    <h1 data-aos="fade-up" data-aos-delay="600" data-aos-once="true">Hi, I’m Melissa Keizer — I’m a product designer focussed on creating meaningful experiences that move the needle.</h1>
     <p data-aos="fade-up" data-aos-delay="1000" data-aos-once="true">I have spent the last decade working across the whole design spectrum including user research, UI/UX design and front-end development.  I’m also an avid photographer and visual story teller, specialising in capturing our favourite, furry companions. </p>
   </article>
 
 <section class="full-width clearfix">
   <div class="homepageLinks">
-      <div class="homepageLinks__third aos-item" data-aos="fade-up" data-aos-delay="1200" data-aos-once="true">
+      <div class="homepageLinks__third" data-aos="fade-up" data-aos-delay="1200" data-aos-once="true">
         <h2><a href="https://dribbble.com/KeizGoesBoom" class="animatedLink animatedLink--animated animatedLink__arrow">Design Work</a></h2>
         <p class="sans-serif"><a href="https://dribbble.com/KeizGoesBoom">Find some of my design work with case study notes on my my Dribbble profile.</a></p>
       </div>
-      <div class="homepageLinks__third aos-item" data-aos="fade-up" data-aos-delay="1300" data-aos-once="true">
+      <div class="homepageLinks__third" data-aos="fade-up" data-aos-delay="1300" data-aos-once="true">
         <h2><a href="https://melissakeizerphotography.com/" class="animatedLink animatedLink--animated animatedLink__arrow">Photography</a></h2>
-        <p class="sans-serif"><a href="https://melissakeizerphotography.com/">I post photo stories and galleries of my trips away and pet photoshoots</a></p>
+        <p class="sans-serif"><a href="https://melissakeizerphotography.com/">I post photo stories and galleries of my trips away and pet photoshoots.</a></p>
       </div>
-      <div class="homepageLinks__third homepageLinks__third--last aos-item" data-aos="fade-up" data-aos-delay="1400" data-aos-once="true">
+      <div class="homepageLinks__third homepageLinks__third--last" data-aos="fade-up" data-aos-delay="1400" data-aos-once="true">
         <h2><a href="http://twitter.com/keizgoesboom" class="animatedLink animatedLink--animated animatedLink__arrow">Twitter</a></h2>
         <p class="sans-serif"><a href="http://twitter.com/keizgoesboom">Catcn my ramblings and get in touch by sliding into my DMs.</a></p>
       </div>
@@ -86,12 +86,12 @@
   <section class="aboutGallery clearfix">
     <div class="aboutGallery__half" data-aos="fade" data-aos-delay="200" data-aos-once="true">
       <div class="galleryPiece">
-        <img src="../img/2022/melissa-orca.jpg" alt="Melissa and her pup Orca" class="workPiece__image" />
+        <img src="/img/2022/melissa-orca.jpg" alt="Melissa and her pup Orca" class="workPiece__image" />
       </div>
     </div><!-- end aboutGallery__third -->
     <div class="aboutGallery__half aboutGallery__half--right" data-aos="fade" data-aos-delay="200" data-aos-once="true">
       <div class="galleryPiece">
-        <img src="../img/2022/rotor-canvas-creator.jpg" alt="Computer screen showing Rotor Videos' Canvas Creator App" class="workPiece__image" />
+        <img src="/img/2022/rotor-canvas-creator.jpg" alt="Computer screen showing Rotor Videos' Canvas Creator App" class="workPiece__image" />
       </div>
     </div><!-- end aboutGallery__half -->
   </section> <!-- end aboutGallery -->
