@@ -18,6 +18,8 @@ rotor: https://rotorvideos.com
 glass: https://glass.photo/melissakeizer
 unsplash: https://unsplash.com/@keizgoesboom
 
+githubpage: https://melissakeizer.github.io/personal-site
+
 # Build settings
 markdown: kramdown
 permalink: /journal/:title/
